@@ -2,7 +2,7 @@
 
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
-  font-size: 1em;
+  font-size:1em;
   color:#444;
   font-weight:400;
 }
@@ -11,6 +11,8 @@ BODY {
   width:100%;
   max-width:1200px;
   margin:0 auto;
+  padding-bottom:50px;
+  font-weight:400;
 }
 
 #name {
@@ -21,13 +23,15 @@ BODY {
   width:60%;
   min-width:300px;
   margin:0 auto;
+  color:#33485e;
+  font-weight:400;
 }
 
 #title {
   color:#33485e;
   text-transform:uppercase;
   font-size:1.5em;
-  font-weight:600px;
+  font-weight:600;
   text-align:center;
   margin-top: 20px;
   margin-bottom:0px;
@@ -36,7 +40,7 @@ BODY {
 }
 
 .sectionheader {
-  font-size:1.5em;
+  font-size:1em;
   text-transform:uppercase;
   background-color:#33485e;
   color:#fff;
@@ -46,6 +50,7 @@ BODY {
   margin-left:0px;
   width:70%;
   min-width:300px;
+  font-weight:400;
 }
 
 .jobtitle {
@@ -74,12 +79,14 @@ BODY {
   margin-bottom:10px;
   margin-right:0px;
   margin-left:0px;
+  font-weight:400;
 }
 
 .menu {
   padding:0px;
   margin:0px;
   text-align:center;
+  font-weight:400;
 }
 
 .menu li {
@@ -91,6 +98,8 @@ BODY {
   margin-bottom:0px;
   margin-right:0px;
   margin-left:0px;
+  font-weight:400;
+  padding-left:20px;
 }
 
 #do {
@@ -98,11 +107,16 @@ BODY {
   margin-bottom:0px;
   margin-right:0px;
   margin-left:0px;
+  font-weight:400;
+  padding-left:20px;
+  font-size:1em;
 }
 
 .top {
   width:60%;
   min-width:300px;
   margin:0 auto;
-  margin-bottom:60px;
+  margin-bottom:30px;
+  font-weight:400;
+  font-size:1em;
 }
