@@ -1,0 +1,83 @@
+#content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Helvetica, "Sans-Serif";
+  font-size: 26pt;
+  font-color: #444444;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-family: Georgia, "Sans-Serif";
+  font-size: 13px;
+  font-color: #000000;
+}
+
+h2 {
+  font-family: Helvetica, "Sans-Serif";
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+.banner {
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-bottom: 5px;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 10pt;
+}
+
+h3 {
+  font-family: Helvetica, "Sans-Serif";
+  font-size: 16pt;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+blockquote {
+  font-family: Georgia, "Sans-Serif";
+  font-size: 20px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote::before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
