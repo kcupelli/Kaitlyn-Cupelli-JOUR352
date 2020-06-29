@@ -57,3 +57,10 @@ li {
 .text-uppercase {
   text-align: center;
 }
+
+.responsive-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 5px;
+}
