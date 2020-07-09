@@ -137,14 +137,6 @@ p {
   color: #505198;
 }
 
-.col-md-6 {
-  width:100%;
-}
-
-.col-md-4 {
-  width:100%;
-}
-
 .image-caption {
   font-size:1em;
   font-family: 'Montserrat', sans-serif;
@@ -430,11 +422,23 @@ p {
   .img-fluid {
     width: 100;
   }
+  .col-md-6 {
+    width: 100%;
+  }
+  .col-md-4 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .img-fluid {
     display: none;
+  }
+  .col-md-6 {
+    width:100%;
+  }
+  .col-md-4 {
+    width: 100%;
   }
 }
 
