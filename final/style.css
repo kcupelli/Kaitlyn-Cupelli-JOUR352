@@ -71,13 +71,15 @@
   .chapter-middle {
     font-size: 2em;
   }
+  .image-caption {
+    font-size: 1em;
+  }
+  .headline {
+    font-size: 2em;
+  }
   .hero-head {
     font-size: 1.5em;
   }
-}
-
-iframe {
-  width: 100%;
 }
 
 /* Head */
@@ -133,6 +135,14 @@ p {
   text-decoration: underline;
   text-align: right;
   color: #505198;
+}
+
+.col-md-6 {
+  width:100%
+}
+
+.col-md-4 {
+  width:100%;
 }
 
 .image-caption {
