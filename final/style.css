@@ -428,17 +428,23 @@ p {
   .col-md-4 {
     width: 100%;
   }
+  .audio {
+    width: 100%;
+  }
+  .video {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .img-fluid {
     display: none;
   }
-  .col-md-6 {
-    width:100%;
+  .audio {
+    display: none;
   }
-  .col-md-4 {
-    width: 100%;
+  .video {
+    display: none;
   }
 }
 
