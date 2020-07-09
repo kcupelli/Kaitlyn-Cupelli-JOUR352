@@ -38,13 +38,13 @@
   position: absolute;
   top:40%;
   width: 100%;
-  background:#000;
+  background: #000;
   opacity:.7;
 }
 
 .hero-head {
   font-family: Georgia, serif;
-  font-size: 5em;
+  font-size: 3em;
   color: #fff;
   margin: 0 auto;
   padding-bottom:10px;
@@ -56,20 +56,6 @@
 }
 
 /* Splashbar ends */
-
-/* Media queries */
-@media(max-width:700px) {
-  p {
-    padding-left:20px;
-    padding-right:10px;
-}
-
-.hero-hed {
-  font-size: 1.5em;
-}
-}
-
-/* Media queries ends */
 
 /* Head */
 
@@ -404,6 +390,7 @@ p {
 .img-responsive {
   width: 100%;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 /* End timeline */
