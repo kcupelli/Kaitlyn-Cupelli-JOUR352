@@ -38,8 +38,6 @@
   position: absolute;
   top:40%;
   width: 100%;
-  background:#000;
-  opacity:.7;
 }
 
 .hero-head {
@@ -57,22 +55,6 @@
 
 /* Splashbar ends */
 
-/* Media queries */
-@media(max-width:700px) {
-  p {
-    padding-left:20px;
-    padding-right:10px;
-}
-
-.hero-hed {
-  font-size: 1em;
-}
-}
-
-/* Media queries ends */
-
-/* Head */
-
 .headline {
   font-size:3em;
   font-weight:700;
@@ -86,10 +68,6 @@
   font-family: 'Montserrat', sans-serif;
   text-align:center;
 }
-
-/* End head */
-
-/* Body */
 
 p {
   font-family: Georgia, serif;
@@ -134,7 +112,6 @@ p {
 .image-caption {
   font-size:1em;
   font-family: 'Montserrat', sans-serif;
-  text-align:right;
   color: #808080;
 }
 
