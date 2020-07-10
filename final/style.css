@@ -438,7 +438,7 @@ p {
 
 @media screen and (max-width: 400px) {
   .img-fluid {
-    display: none;
+    display: block;
   }
   .audio {
     display: none;
