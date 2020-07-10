@@ -418,6 +418,10 @@ p {
   overflow: hidden;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   .img-fluid {
     width: 100%;
